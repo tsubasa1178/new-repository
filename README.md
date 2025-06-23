@@ -12,3 +12,13 @@ docker run -it --rm -v ${PWD}:/mnt mypython:0.1 python hello.py
 ```bash
 git add README.md
 git commit -m "docs: 初期READMEを追加"
+
+```bash
+docker compose up -d
+docker compose exec mypython python hello.py
+docker compose down
+
+#### 実行コマンド
+```bash
+git add README.md
+git commit -m "docs: docker-composeによる実行手順をREADMEに追記"
