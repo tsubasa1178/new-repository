@@ -6,8 +6,7 @@
 ```bash
 docker build -t mypython:0.1 .
 docker run -it --rm -v ${PWD}:/mnt mypython:0.1 python hello.py
-csharp
-コードをコピーする
+
 
 #### 実行コマンド
 ```bash
