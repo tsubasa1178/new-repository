@@ -27,7 +27,7 @@ y_test = y_test[y_test < m]
 y_test = to_categorical(y_test, m)
 
 if use_small_data:
-    ## プログラム作成中は訓練データを小さくして，
+    ### プログラム作成中は訓練データを小さくして，
     ## 実行時間が短くようにしておく
     y_train = y_train[range(1000)]
     x_train = x_train[range(1000),:]
