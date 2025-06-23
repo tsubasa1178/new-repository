@@ -67,6 +67,9 @@ def softmax(x):
 
     return np.exp(x)/np.sum(np.exp(x))
 
+#### 誤差関数
+def CrossEntoropy(g, y):
+    return np.sum(-y*np.log(g))
 
 #### 逆伝播
 def backward(W_tilde, delta, derivative):
