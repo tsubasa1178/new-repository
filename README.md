@@ -22,3 +22,11 @@ docker compose down
 ```bash
 git add README.md
 git commit -m "docs: docker-composeによる実行手順をREADMEに追記"
+
+## 補足
+
+- `hello.py` は /mnt にマウントされているコードを実行します。
+- `mypython:0.1` はカスタムビルドされたPython環境です。
+#### 実行コマンド
+git add README.md
+git commit -m "docs: hello.pyの実行方法と補足説明をREADMEに追加"
