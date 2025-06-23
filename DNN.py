@@ -141,7 +141,7 @@ for epoch in range(0, num_epoch):
         z0 = np.append(1, x_test[j, :])
         yi = y_test[j, :]
 
-        #####順伝播 (テストデータ版. やることは訓練データと同じ)
+        ######順伝播 (テストデータ版. やることは訓練データと同じ)
         z1, u1 = forward(z0, W0, ReLU) 
         z2, u2 = forward(z1, W1, ReLU)
         z3, u3 = forward(z2, W2, ReLU)
